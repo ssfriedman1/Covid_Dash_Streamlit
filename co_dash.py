@@ -27,7 +27,7 @@ from graphs import (
 covid_data = get_data()
 
 
-st.title("Covid Dataset 2022")
+st.title("Covid Dashboard 2022")
 
 nav_link = st.sidebar.radio("Navigation", ("Home", "US Trends", "Local Trends"))
 
